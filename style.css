@@ -5,8 +5,7 @@
 }
 
 body {
-    background-color: black;
-}
+    background-image: linear-gradient(to bottom, #3198e2,#6d59c0, #b93590, #e33f5f, #fdd579 );}
 
 main {
     color: white;
@@ -19,7 +18,7 @@ main {
 }
 
 form {
-    background-color: #1e1c21;
+    background-color: #1e1c219b;
     width: 40%;
     height: 400px;
     min-width: 240px;
@@ -53,12 +52,12 @@ input,button {
 }
 
 button {
-    background-color: #c31616;
+    background-color: #b93590;
     color: white;
 }
 
 button:hover {
-    background-color: #5e0909;
-
+    background-color: #742059;
+    color: rgba(255, 255, 255, 0.542);
     cursor: pointer;
 }
